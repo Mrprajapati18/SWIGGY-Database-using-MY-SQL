@@ -1,3 +1,8 @@
 # SWIGGY-Database-using-MY-SQL
 
-# Create database swiggy
+# Topics we covered:**
+
+- WHERE Clause
+- ORDER BY
+- LIKE
+- DISTINCT
