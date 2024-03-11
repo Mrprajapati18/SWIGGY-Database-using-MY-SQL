@@ -15,6 +15,12 @@ Swiggy is one of the most popular food delivery platforms connecting customers w
 SELECT count(DISTINCT order_id) as distinct_on_time_dilevery  from orders
 where on_time=1;
 
+### ORDER BY
+select order_total,count(distinct restaurant_name) As restaurant_count from Orders
+group by order_total
+order by restaurant_count desc
+limit 1;
+
 ### LIKE OPERATOR
 
 SELECT order_total, COUNT(DISTINCT restaurant_name) AS pizza_restaurant 
