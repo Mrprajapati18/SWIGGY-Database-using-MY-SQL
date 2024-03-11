@@ -16,9 +16,7 @@ SELECT count(DISTINCT order_id) as distinct_on_time_dilevery  from orders
 where on_time=1;
 
 ### LIKE OPERATOR
-- `%` means any number of characters from 0 to infinity
-- `_` means just 1 character
-- `LIKE` is equal to `=` when we want an exact match
+
 SELECT order_total, COUNT(DISTINCT restaurant_name) AS pizza_restaurant 
 FROM Orders 
 WHERE restaurant_name LIKE '%Pizza%'
