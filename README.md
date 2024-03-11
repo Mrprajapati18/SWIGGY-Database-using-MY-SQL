@@ -19,3 +19,7 @@ Swiggy is one of the most popular food delivery platforms connecting customers w
 - `%` means any number of characters from 0 to infinity
 - `_` means just 1 character
 - `LIKE` is equal to `=` when we want an exact match
+
+  ### Filteration Using WHERE CLAUSE
+-SELECT count(DISTINCT order_id) as distinct_on_time_dilevery  from orders
+-where on_time=1;
