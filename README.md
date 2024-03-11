@@ -27,3 +27,8 @@ SELECT order_total, COUNT(DISTINCT restaurant_name) AS pizza_restaurant
 FROM Orders 
 WHERE restaurant_name LIKE '%Pizza%'
 GROUP BY order_total;
+
+### DISTINCT operator
+ How many distinct resturant we have order from?
+ 
+select count(DISTINCT restaurant_name) AS distinct_resturant FROM orders
