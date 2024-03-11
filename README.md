@@ -10,7 +10,7 @@ Swiggy is one of the most popular food delivery platforms connecting customers w
 - LIKE
 - DISTINCT
 - Group BY
-- 
+  
 ### WHERE CLAUSE
 SELECT count(DISTINCT order_id) as distinct_on_time_dilevery  from orders
 where on_time=1;
