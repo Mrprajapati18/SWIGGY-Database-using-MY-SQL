@@ -40,3 +40,11 @@ select count(DISTINCT restaurant_name) AS distinct_resturant FROM orders
 
 # Project Short_Screen 
 ![Screenshot 2024-03-12 022527](https://github.com/Mrprajapati18/SWIGGY-Database-using-MY-SQL/assets/143236347/84560436-e8cf-456a-9141-186dba5aa145)
+
+# Skills
+MY SQL Workbench 8.0 CE
+
+# Documentation
+[Swiggy_orders_Database.csv](https://github.com/Mrprajapati18/SWIGGY-Database-using-MY-SQL/files/14565190/Swiggy_orders_Database.csv)
+
+
