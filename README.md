@@ -37,3 +37,6 @@ GROUP BY order_total;
  How many distinct resturant we have order from?
  
 select count(DISTINCT restaurant_name) AS distinct_resturant FROM orders
+
+# Project Short_Screen 
+![Screenshot 2024-03-12 022527](https://github.com/Mrprajapati18/SWIGGY-Database-using-MY-SQL/assets/143236347/84560436-e8cf-456a-9141-186dba5aa145)
