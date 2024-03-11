@@ -1,5 +1,7 @@
 # SWIGGY-Database-using-MY-SQL
 
+# Project Description:
+
 # Topics we covered:
 
 - WHERE Clause
